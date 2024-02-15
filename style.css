@@ -1,0 +1,14 @@
+.para-one {
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.list-phonetics {
+  color: blueviolet;
+}
+
+.title-main {
+  padding: 5px;
+  border: thick double black;
+}
