@@ -5,10 +5,36 @@
 }
 
 .list-phonetics {
+  padding: 10px;
+  border: solid black;
+  float: left;
   color: blueviolet;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .title-main {
   padding: 5px;
   border: thick double black;
+}
+
+.blog-insert-1 {
+  padding: 10px;
+  border: solid black;
+  grid-column: 2 / 3;
+  grid-row: auto;
+}
+
+.section-two {
+  display: grid;
+  grid-template-columns: 3;
+  gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 10px;
+}
+
+.section-three {
+  border: 10px solid blue;
+  padding: 10px;
+  margin: 5px;
 }
